@@ -54,6 +54,12 @@ origin = https://github.com/Guilouz/Creality-Helper-Script.git
 primary_branch = main
 managed_services = klipper
 
+[timelapse]
+output_path = /usr/data/printer_data/timelapse/
+frame_path = /usr/data/printer_data/frames/
+ffmpeg_binary_path = /opt/bin/ffmpeg
+snapshoturl = http://localhost:8080/?action=snapshot
+
 [update_manager fluidd]
 type = web
 channel = beta
